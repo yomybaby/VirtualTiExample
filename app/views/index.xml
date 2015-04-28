@@ -1,4 +1,12 @@
 <Alloy>
-	<Window class="container">
-	</Window>
+	<NavigationWindow>
+		<Window class="container">
+			<ListView onItemclick="onItemClick">
+				<ListSection>
+					<ListItem title="virtualdom" itemId="virtualdom"></ListItem>
+					<ListItem title="alloygrid" itemId="alloygrid"></ListItem>
+				</ListSection>
+			</ListView>
+		</Window>
+	</NavigationWindow>
 </Alloy>
