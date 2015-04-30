@@ -1,0 +1,3 @@
+[submodule "app/lib/node_modules/virtual-dom"]
+	path = app/lib/node_modules/virtual-dom
+	url = https://github.com/yomybaby/virtual-dom.git
