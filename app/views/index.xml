@@ -3,8 +3,9 @@
 		<Window class="container">
 			<ListView onItemclick="onItemClick">
 				<ListSection>
-					<ListItem title="virtualdom" itemId="virtualdom"></ListItem>
-					<ListItem title="alloygrid" itemId="alloygrid"></ListItem>
+					<ListItem title="Virtual-Dom" itemId="virtualdom"></ListItem>
+					<ListItem title="Alloy Model (key-value opservation)" itemId="alloygrid"></ListItem>
+					<ListItem title="Nano binding" itemId="nano"></ListItem>
 				</ListSection>
 			</ListView>
 		</Window>

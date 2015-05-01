@@ -6,7 +6,7 @@ var children = [];
 var colors = ['aqua', 'black', 'blue', 'brown', 'cyan', 'darkgray', 'fuchsia', 'gray', 'green', 'lightgray', 'lime', 'magenta', 'maroon', 'navy', 'olive', 'orange', 'pink', 'purple', 'red', 'silver', 'teal', 'white', 'yellow'];
 
 for(var i=0;i<100;i++){
-	col.create({
+	col.add({
 		backgroundColor : colors[_.random(0, 4)],
 		text : i
 	});

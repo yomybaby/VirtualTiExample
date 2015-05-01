@@ -13,15 +13,23 @@ var count = 0;
 var colors = ['aqua', 'black', 'blue', 'brown', 'cyan', 'darkgray', 'fuchsia', 'gray', 'green', 'lightgray', 'lime', 'magenta', 'maroon', 'navy', 'olive', 'orange', 'pink', 'purple', 'red', 'silver', 'teal', 'white', 'yellow'];
 
 function render(count) {
+	var cntLabel = h('Label', {
+		namespace : 'UI',
+		style : {
+			text : '',
+			width : Ti.UI.FILL,
+			height : 30
+		}
+	}, []);
 	var cells = _.map(_.range(100), function(idx) {
 		return h('View', {
 			namespace : 'UI',
 			style : {
 				backgroundColor : colors[_.random(0, 4)], //colors[(idx + count) % colors.length],
-				width : 30,
-				height : 30,
-				// top : parseInt(idx / 10) * 30,
-				// left : (idx % 10) * 30
+				width : 32,
+				height : 32,
+				// top : parseInt(idx / 10) * 32,
+				// left : (idx % 10) * 32
 			}
 		}, [h('Label', {
 			namespace : 'UI',
@@ -37,7 +45,7 @@ function render(count) {
 			borderColor : 'blue',
 			layout : 'horizontal'
 		}
-	}, cells);
+	}, [cntLabel].concat(cells));
 }
 
 // 2: Initialise the document
@@ -56,4 +64,4 @@ setInterval(function() {
 	var patches = diff(tree, newTree);
 	rootNode = patch(rootNode, patches);
 	tree = newTree;
-}, 50);
+}, 10);

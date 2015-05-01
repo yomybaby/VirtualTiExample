@@ -1,4 +1,5 @@
 <Alloy>
 	<Window class="container">
+		<Label width="FILL" height="30"></Label>
 	</Window>
 </Alloy>
