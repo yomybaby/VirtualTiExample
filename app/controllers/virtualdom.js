@@ -11,12 +11,12 @@ var count = 0;
 // 1: Create a function that declares what the DOM should look like
 
 var colors = ['aqua', 'black', 'blue', 'brown', 'cyan', 'darkgray', 'fuchsia', 'gray', 'green', 'lightgray', 'lime', 'magenta', 'maroon', 'navy', 'olive', 'orange', 'pink', 'purple', 'red', 'silver', 'teal', 'white', 'yellow'];
-
+var cnt = 0;
 function render(count) {
 	var cntLabel = h('Label', {
 		namespace : 'UI',
 		style : {
-			text : '',
+			text : cnt,
 			width : Ti.UI.FILL,
 			height : 30
 		}
@@ -59,9 +59,15 @@ var rootNode = createElement(tree, {
 $.getView().add(rootNode);
 
 // 3: Wire up the update logic
-setInterval(function() {
-	var newTree = render(count);
-	var patches = diff(tree, newTree);
-	rootNode = patch(rootNode, patches);
-	tree = newTree;
+var start = new Date();
+var itvId = setInterval(function() {
+	if(++cnt>100) {
+		clearInterval(itvId);
+		console.log(new Date() - start);
+	}else{
+		var newTree = render(count);
+		var patches = diff(tree, newTree);
+		rootNode = patch(rootNode, patches);
+		tree = newTree;
+	}
 }, 10);

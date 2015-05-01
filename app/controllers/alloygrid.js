@@ -14,11 +14,17 @@ for(var i=0;i<100;i++){
 		model : col.at(i)
 	}).getView());
 }
-
-setInterval(function(){
+var cnt=0;
+var start = new Date();
+var itvId = setInterval(function() {
+	if(++cnt>100) {
+		clearInterval(itvId);
+		console.log(new Date() - start);
+	}
 	for(var i=0;i<100;i++){
 		col.at(i).set('backgroundColor' , colors[_.random(0, 4)]);
-	}	
-},50);
+	}
+	$.cntLabel.text = cnt;
+},10);
 
 $.alloygrid.add(children);

@@ -1,4 +1,10 @@
 
 ".container" : {
-  
+  backgroundColor : 'white'
+}
+
+
+".box" : {
+  width:32,
+  height:32
 }

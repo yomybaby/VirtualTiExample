@@ -1,8 +1,116 @@
 <Alloy>
-	<Window class="container">
-		<View top="100" layout="vertical">
-			<TextField value="-=person.first=-"></TextField>
-			<Label>{{person.first}}</Label>
-		</View>
+	<Window class="container" layout="horizontal">
+		<Label id="cntLabel" width="FILL" height="30"></Label>
+		<View class="box" backgroundColor="{{colors.idx0}}"><Label>0</Label></View>
+		<View class="box" backgroundColor="{{colors.idx1}}"><Label>1</Label></View>
+		<View class="box" backgroundColor="{{colors.idx2}}"><Label>2</Label></View>
+		<View class="box" backgroundColor="{{colors.idx3}}"><Label>3</Label></View>
+		<View class="box" backgroundColor="{{colors.idx4}}"><Label>4</Label></View>
+		<View class="box" backgroundColor="{{colors.idx5}}"><Label>5</Label></View>
+		<View class="box" backgroundColor="{{colors.idx6}}"><Label>6</Label></View>
+		<View class="box" backgroundColor="{{colors.idx7}}"><Label>7</Label></View>
+		<View class="box" backgroundColor="{{colors.idx8}}"><Label>8</Label></View>
+		<View class="box" backgroundColor="{{colors.idx9}}"><Label>9</Label></View>
+		
+		<View class="box" backgroundColor="{{colors.idx10}}"><Label>0</Label></View>
+		<View class="box" backgroundColor="{{colors.idx11}}"><Label>1</Label></View>
+		<View class="box" backgroundColor="{{colors.idx12}}"><Label>2</Label></View>
+		<View class="box" backgroundColor="{{colors.idx13}}"><Label>3</Label></View>
+		<View class="box" backgroundColor="{{colors.idx14}}"><Label>4</Label></View>
+		<View class="box" backgroundColor="{{colors.idx15}}"><Label>5</Label></View>
+		<View class="box" backgroundColor="{{colors.idx16}}"><Label>6</Label></View>
+		<View class="box" backgroundColor="{{colors.idx17}}"><Label>7</Label></View>
+		<View class="box" backgroundColor="{{colors.idx18}}"><Label>8</Label></View>
+		<View class="box" backgroundColor="{{colors.idx19}}"><Label>9</Label></View>
+		
+		<View class="box" backgroundColor="{{colors.idx20}}"><Label>0</Label></View>
+		<View class="box" backgroundColor="{{colors.idx21}}"><Label>1</Label></View>
+		<View class="box" backgroundColor="{{colors.idx22}}"><Label>2</Label></View>
+		<View class="box" backgroundColor="{{colors.idx23}}"><Label>3</Label></View>
+		<View class="box" backgroundColor="{{colors.idx24}}"><Label>4</Label></View>
+		<View class="box" backgroundColor="{{colors.idx25}}"><Label>5</Label></View>
+		<View class="box" backgroundColor="{{colors.idx26}}"><Label>6</Label></View>
+		<View class="box" backgroundColor="{{colors.idx27}}"><Label>7</Label></View>
+		<View class="box" backgroundColor="{{colors.idx28}}"><Label>8</Label></View>
+		<View class="box" backgroundColor="{{colors.idx29}}"><Label>9</Label></View>
+		
+		<View class="box" backgroundColor="{{colors.idx30}}"><Label>0</Label></View>
+		<View class="box" backgroundColor="{{colors.idx31}}"><Label>1</Label></View>
+		<View class="box" backgroundColor="{{colors.idx32}}"><Label>2</Label></View>
+		<View class="box" backgroundColor="{{colors.idx33}}"><Label>3</Label></View>
+		<View class="box" backgroundColor="{{colors.idx34}}"><Label>4</Label></View>
+		<View class="box" backgroundColor="{{colors.idx35}}"><Label>5</Label></View>
+		<View class="box" backgroundColor="{{colors.idx36}}"><Label>6</Label></View>
+		<View class="box" backgroundColor="{{colors.idx37}}"><Label>7</Label></View>
+		<View class="box" backgroundColor="{{colors.idx38}}"><Label>8</Label></View>
+		<View class="box" backgroundColor="{{colors.idx39}}"><Label>9</Label></View>
+		
+		<View class="box" backgroundColor="{{colors.idx40}}"><Label>0</Label></View>
+		<View class="box" backgroundColor="{{colors.idx41}}"><Label>1</Label></View>
+		<View class="box" backgroundColor="{{colors.idx42}}"><Label>2</Label></View>
+		<View class="box" backgroundColor="{{colors.idx43}}"><Label>3</Label></View>
+		<View class="box" backgroundColor="{{colors.idx44}}"><Label>4</Label></View>
+		<View class="box" backgroundColor="{{colors.idx45}}"><Label>5</Label></View>
+		<View class="box" backgroundColor="{{colors.idx46}}"><Label>6</Label></View>
+		<View class="box" backgroundColor="{{colors.idx47}}"><Label>7</Label></View>
+		<View class="box" backgroundColor="{{colors.idx48}}"><Label>8</Label></View>
+		<View class="box" backgroundColor="{{colors.idx49}}"><Label>9</Label></View>
+		
+		<View class="box" backgroundColor="{{colors.idx50}}"><Label>0</Label></View>
+		<View class="box" backgroundColor="{{colors.idx51}}"><Label>1</Label></View>
+		<View class="box" backgroundColor="{{colors.idx52}}"><Label>2</Label></View>
+		<View class="box" backgroundColor="{{colors.idx53}}"><Label>3</Label></View>
+		<View class="box" backgroundColor="{{colors.idx54}}"><Label>4</Label></View>
+		<View class="box" backgroundColor="{{colors.idx55}}"><Label>5</Label></View>
+		<View class="box" backgroundColor="{{colors.idx56}}"><Label>6</Label></View>
+		<View class="box" backgroundColor="{{colors.idx57}}"><Label>7</Label></View>
+		<View class="box" backgroundColor="{{colors.idx58}}"><Label>8</Label></View>
+		<View class="box" backgroundColor="{{colors.idx59}}"><Label>9</Label></View>
+		
+		<View class="box" backgroundColor="{{colors.idx60}}"><Label>0</Label></View>
+		<View class="box" backgroundColor="{{colors.idx61}}"><Label>1</Label></View>
+		<View class="box" backgroundColor="{{colors.idx62}}"><Label>2</Label></View>
+		<View class="box" backgroundColor="{{colors.idx63}}"><Label>3</Label></View>
+		<View class="box" backgroundColor="{{colors.idx64}}"><Label>4</Label></View>
+		<View class="box" backgroundColor="{{colors.idx65}}"><Label>5</Label></View>
+		<View class="box" backgroundColor="{{colors.idx66}}"><Label>6</Label></View>
+		<View class="box" backgroundColor="{{colors.idx67}}"><Label>7</Label></View>
+		<View class="box" backgroundColor="{{colors.idx68}}"><Label>8</Label></View>
+		<View class="box" backgroundColor="{{colors.idx69}}"><Label>9</Label></View>
+		
+		<View class="box" backgroundColor="{{colors.idx70}}"><Label>0</Label></View>
+		<View class="box" backgroundColor="{{colors.idx71}}"><Label>1</Label></View>
+		<View class="box" backgroundColor="{{colors.idx72}}"><Label>2</Label></View>
+		<View class="box" backgroundColor="{{colors.idx73}}"><Label>3</Label></View>
+		<View class="box" backgroundColor="{{colors.idx74}}"><Label>4</Label></View>
+		<View class="box" backgroundColor="{{colors.idx75}}"><Label>5</Label></View>
+		<View class="box" backgroundColor="{{colors.idx76}}"><Label>6</Label></View>
+		<View class="box" backgroundColor="{{colors.idx77}}"><Label>7</Label></View>
+		<View class="box" backgroundColor="{{colors.idx78}}"><Label>8</Label></View>
+		<View class="box" backgroundColor="{{colors.idx79}}"><Label>9</Label></View>
+		
+		<View class="box" backgroundColor="{{colors.idx80}}"><Label>0</Label></View>
+		<View class="box" backgroundColor="{{colors.idx81}}"><Label>1</Label></View>
+		<View class="box" backgroundColor="{{colors.idx82}}"><Label>2</Label></View>
+		<View class="box" backgroundColor="{{colors.idx83}}"><Label>3</Label></View>
+		<View class="box" backgroundColor="{{colors.idx84}}"><Label>4</Label></View>
+		<View class="box" backgroundColor="{{colors.idx85}}"><Label>5</Label></View>
+		<View class="box" backgroundColor="{{colors.idx86}}"><Label>6</Label></View>
+		<View class="box" backgroundColor="{{colors.idx87}}"><Label>7</Label></View>
+		<View class="box" backgroundColor="{{colors.idx88}}"><Label>8</Label></View>
+		<View class="box" backgroundColor="{{colors.idx89}}"><Label>9</Label></View>
+		
+		<View class="box" backgroundColor="{{colors.idx90}}"><Label>0</Label></View>
+		<View class="box" backgroundColor="{{colors.idx91}}"><Label>1</Label></View>
+		<View class="box" backgroundColor="{{colors.idx92}}"><Label>2</Label></View>
+		<View class="box" backgroundColor="{{colors.idx93}}"><Label>3</Label></View>
+		<View class="box" backgroundColor="{{colors.idx94}}"><Label>4</Label></View>
+		<View class="box" backgroundColor="{{colors.idx95}}"><Label>5</Label></View>
+		<View class="box" backgroundColor="{{colors.idx96}}"><Label>6</Label></View>
+		<View class="box" backgroundColor="{{colors.idx97}}"><Label>7</Label></View>
+		<View class="box" backgroundColor="{{colors.idx98}}"><Label>8</Label></View>
+		<View class="box" backgroundColor="{{colors.idx99}}"><Label>9</Label></View>
+		<!-- <TextField value="{{person.first}}"></TextField> -->
+		<!-- <Label>{{person.first + person.last}}</Label> -->
 	</Window>
 </Alloy>
