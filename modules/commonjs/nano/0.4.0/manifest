@@ -1,0 +1,10 @@
+version: 0.4.0
+description: A two-way databinding library for Appcelerator's Titanium Alloy framework
+author: David Bankier
+license: MIT
+copyright: Copyright © 2015 David Bankier
+name: nano
+moduleid: nano
+guid: 5d9c068c-a4dd-921d-f244-c92374fcfa07
+platform: commonjs
+minsdk: 3.2.0.GA

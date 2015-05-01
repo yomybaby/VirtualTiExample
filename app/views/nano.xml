@@ -1,0 +1,8 @@
+<Alloy>
+	<Window class="container">
+		<View top="100" layout="vertical">
+			<TextField value="-=person.first=-"></TextField>
+			<Label>{{person.first}}</Label>
+		</View>
+	</Window>
+</Alloy>

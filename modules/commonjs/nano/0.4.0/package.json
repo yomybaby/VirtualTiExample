@@ -1,0 +1,45 @@
+{
+  "name": "ti-nano",
+  "version": "0.4.0",
+  "description": "A two-way databinding library for Appcelerator's Titanium Alloy framework",
+  "directories": {
+    "example": "example"
+  },
+  "main": "src/nano.js",
+  "scripts": {
+    "postinstall": "node scripts/install.js"
+  },
+  "titaniumManifest": {
+    "name": "nano",
+    "moduleid": "nano",
+    "guid": "5d9c068c-a4dd-921d-f244-c92374fcfa07"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dbankier/nano.git"
+  },
+  "keywords": [
+    "nano",
+    "appcelerator",
+    "titanium",
+    "alloy",
+    "data-binding",
+    "observe-js"
+  ],
+  "author": "David Bankier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dbankier/nano/issues"
+  },
+  "homepage": "https://github.com/dbankier/nano",
+  "devDependencies": {
+    "async": "^0.9.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-shell": "^1.1.1",
+    "grunt-titaniumifier": "^1.0.1",
+    "matchdep": "^0.3.0",
+    "observe-js": "^0.4.2"
+  },
+  "dependencies": {},
+  "_nativeDependencies": {}
+}
